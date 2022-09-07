@@ -2,6 +2,10 @@
 
 In this practical hands-on we are going to embed a dashboard or two using the Tableau Embedding API v3
 
+## Prerequisites
+
+Display sizing with dashboards can be very tricky so with your new dashboard make sure to either set it to Automatic sizing or make sure it is with the following size: `height < 900 px` and `width < 1400 px`
+
 ## Step 1: Fork the repository
 
 Go to the sample repository and fork the repository. Forking will create your own copy of the code.
