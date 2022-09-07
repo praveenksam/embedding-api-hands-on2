@@ -23,7 +23,7 @@ In your newly created repository code, edit the index.html file. We will first a
 
 ## Step 3: Add the URL for the Tableau view
 
-In the index.html file, add the URL for the dashboard to the `tableau-viz` object. The `tableau-viz` object starts at line 76. The view URL should be obtained from the Share menu of the dashboard and it should be added in line 80 replacing `[VIEW_URL]`
+In the index.html file, add the URL for the dashboard to the `tableau-viz` object. The `tableau-viz` object starts at line 75. The view URL should be obtained from the Share menu of the dashboard and it should be added in line 79 replacing `[VIEW_URL]`
 The final `tableau-viz` object will look similar to the following, assuming the dashboard URL is https://public.tableau.com/views/Sample-Superstore/Superstore
 
 ```
@@ -40,7 +40,7 @@ The final `tableau-viz` object will look similar to the following, assuming the 
 
 ## Step 4: Add a button to export cross-tab
 
-In the index.html file, let us add an action to the Export Data button. We will be adding an action to the `onclick` function as follows: `onclick="document.getElementById('tableauViz').displayDialogAsync('export-cross-tab')"` The code for the Export Data button starting at line 63 will look similar to the following:
+In the index.html file, let us add an action to the Export Data button. We will be adding an action to the `onclick` function as follows: `onclick="document.getElementById('tableauViz').displayDialogAsync('export-cross-tab')"` The code for the Export Data button starting at line 62 will look similar to the following:
 
 ```
 <button
@@ -56,6 +56,6 @@ In the index.html file, let us add an action to the Export Data button. We will 
 
 Add logic to Export PDF and Get Image buttons based on the documentation at https://help.tableau.com/current/api/embedding_api/en-us/reference/interfaces/viz.html
 
-## Step 6: Add a new dashboard to another slide at line 98
+## Step 6: Add a new dashboard to another slide at line 97
 
 ## Next Step: Go have fun embedding!!
