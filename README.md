@@ -4,7 +4,7 @@ In this practical hands-on we are going to embed a dashboard or two using the Ta
 
 ## Prerequisites
 
-Display sizing with dashboards can be very tricky so with your new dashboard make sure to either set it to Automatic sizing or make sure it is with the following size: `height < 900 px` and `width < 1400 px`
+Display sizing with dashboards can be very tricky so with your new dashboard make sure to either set it to Automatic sizing or make sure it is with the following size: `height < 900 px` and `width < 1400 px` so probably you can set the size to the Generic Desktop (1366 x 768) size on Tableau
 
 ## Step 1: Fork the repository
 
