@@ -1,1 +1,0 @@
-# embedding-api-hands-on
