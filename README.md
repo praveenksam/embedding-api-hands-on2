@@ -54,7 +54,7 @@ In the index.html file, let us add an action to the Export Data button. We will 
 
 ## Step 5: Add logic to two other buttons
 
-Add logic to Export PDF and Get Image buttons based on the [Tableau Embedding API reference for Viz object] (https://help.tableau.com/current/api/embedding_api/en-us/reference/interfaces/viz.html)
+Add logic to Export PDF and Get Image buttons based on the [Tableau Embedding API reference for Viz object](https://help.tableau.com/current/api/embedding_api/en-us/reference/interfaces/viz.html)
 
 ## Step 6: Add a new dashboard to another slide at line 97
 
