@@ -15,10 +15,7 @@ Go to the [sample repository](https://bit.ly/embeddingHandsOn) and fork the repo
 In your newly created repository code, edit the index.html file. We will first add the Embedding API v3 script at line 39
 
 ```
-<script
-    type="module"
-    src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.js"
-></script>
+<script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.js"></script>
 ```
 
 ## Step 3: Add the URL for the Tableau view
@@ -43,12 +40,7 @@ After update the `tableau-viz` object will look similar to the following, assumi
 In the index.html file, let us add an action to the Export Data button. We will be adding an action to the `onclick` function as follows: `onclick="document.getElementById('tableauViz').displayDialogAsync('export-cross-tab')"` The code for the Export Data button starting at line 76 will look similar to the following:
 
 ```
-<button
-    onclick="document.getElementById('tableauViz').displayDialogAsync('export-cross-tab')"
-    class="button-30"
-    style="width: 20%"
-    >
-    Export Data
+<button onclick="document.getElementById('tableauViz').displayDialogAsync('export-cross-tab')" class="button-30" style="width: 20%">Export Data
 </button>
 ```
 
