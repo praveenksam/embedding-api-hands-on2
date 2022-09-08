@@ -4,11 +4,11 @@ In this practical hands-on we are going to embed a dashboard or two using the Ta
 
 ## Prerequisites
 
-Display sizing with dashboards can be very tricky so with your new dashboard make sure to either set it to Automatic sizing or make sure it is with the following size: `height < 900 px` and `width < 1400 px` so probably you can set the size to the Generic Desktop (1366 x 768) size on Tableau
+To ensure the dashboards load properly when embedded set the size of your dashboard on Tableau Public to the Generic Desktop (1366 x 768) size
 
 ## Step 1: Fork the repository
 
-Go to the sample repository and fork the repository. Forking will create your own copy of the code.
+Go to the [sample repository](https://bit.ly/embeddingHandsOn) and fork the repository. Forking will create your own copy of the code.
 
 ## Step 2: Add the Embedding API v3 script
 
@@ -54,7 +54,7 @@ In the index.html file, let us add an action to the Export Data button. We will 
 
 ## Step 5: Add logic to two other buttons
 
-Add logic to Export PDF and Get Image buttons based on the documentation at https://help.tableau.com/current/api/embedding_api/en-us/reference/interfaces/viz.html
+Add logic to Export PDF and Get Image buttons based on the [Tableau Embedding API reference for Viz object] (https://help.tableau.com/current/api/embedding_api/en-us/reference/interfaces/viz.html)
 
 ## Step 6: Add a new dashboard to another slide at line 97
 

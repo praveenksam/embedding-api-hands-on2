@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
   <head>
+    <title>Testing Tableau Embedding v3.2.0 on Public</title>
+
+    <!-- Some code to ensure our theme works as expected -->
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="canonical" href="https://html5-templates.com/" />
-    <title>Testing Tableau Embedding v3.2.0 on Public</title>
     <meta name="description" content="A brief page description" />
     <link rel="stylesheet" href="style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-
     <script src="script.js"></script>
-
     <script type="text/javascript">
       $(document).ready(function () {
         $("#fullpage").fullpage({
@@ -34,9 +34,12 @@
         });
       });
     </script>
+
+    <!-- Insert the Tableau Embedding Script below this per step 2-->
   </head>
 
   <body>
+    <!-- Menu Bar code -->
     <ul id="menu">
       <li data-menuanchor="firstPage" class="active">
         <a href="#firstPage">Intro</a>
@@ -46,12 +49,16 @@
     </ul>
 
     <div id="fullpage">
+      <!-- First page code -->
       <div class="section active" id="section0">
         <h1>Tableau Embedding API v3 Demo</h1>
         <p>Scroll Down To Change Slide</p>
         <p class="introimg">&darr;&#9636;&darr;</p>
       </div>
+
+      <!-- Second page aka Dashboards page code -->
       <div class="section" id="section1">
+        <!-- First slide of dashboard and buttons -->
         <div class="slide" id="slide1">
           <div class="intro">
             <div
@@ -59,6 +66,7 @@
               height="100%"
               style="padding: 20px; margin-top: 2em"
             >
+              <!-- Update this button first as per Step 4 -->
               <button
                 onclick="document.getElementById('tableauViz').displayDialogAsync('export-cross-tab')"
                 class="button-30"
@@ -66,12 +74,14 @@
               >
                 Export Data
               </button>
+              <!-- Do you want to try adding some new buttons below? -->
               <button onclick="" class="button-30" style="width: 20%">
                 Export PDF
               </button>
               <button class="button-30" style="width: 20%">Get Image</button>
             </div>
             <div style="width: 1400px; height: 900px; margin: 0 auto">
+              <!-- Add URL for dashboard below per Step 3 -->
               <tableau-viz
                 device="default"
                 hide-tabs=""
@@ -84,6 +94,7 @@
             </div>
           </div>
         </div>
+        <!-- Feeling like adding more dashboards and buttons, feel free to play with the slide below -->
         <div class="slide" id="slide2">
           <div
             width="100%"
@@ -97,27 +108,43 @@
           <div style="width: 1400px; height: 900px; margin: 0 auto"></div>
         </div>
       </div>
+
+      <!-- Some helpful links for learning later -->
       <div class="section" id="section2">
         <h1>So what next?</h1>
         <p>Here are some resources</p>
         <a
-          style="color: #ddc772; font-size: 25px"
+          style="color: #ddc772; font-size: 20px"
+          href="https://tableau.github.io/embedding-playbook/"
+          >Tableau Embedding Playbook</a
+        >
+        <br />
+        <br />
+        <a
+          style="color: #ddc772; font-size: 20px"
+          href="https://gallery.biztory.com/provisioning"
+          >User deployment, authentication demos</a
+        >
+        <br />
+        <br />
+        <a
+          style="color: #ddc772; font-size: 20px"
+          href="https://embedded.tableau.com/"
+          >Tableau Embedded Portal Demo</a
+        >
+        <br />
+        <br />
+        <a
+          style="color: #ddc772; font-size: 20px"
           href="https://help.tableau.com/current/api/embedding_api/en-us/index.html"
           >Tableau Embedding API documentation</a
         >
         <br />
         <br />
         <a
-          style="color: #ddc772; font-size: 25px"
+          style="color: #ddc772; font-size: 20px"
           href="https://help.tableau.com/current/api/embedding_api/en-us/reference/index.html"
           >Embedding API Reference</a
-        >
-        <br />
-        <br />
-        <a
-          style="color: #ddc772; font-size: 25px"
-          href="https://tableau.github.io/embedding-playbook/"
-          >Tableau Embedding Playbook</a
         >
       </div>
     </div>
