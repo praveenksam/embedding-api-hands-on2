@@ -8,7 +8,7 @@ To ensure the dashboards load properly when embedded set the size of your dashbo
 
 ## Step 1: Fork the repository
 
-Go to the [sample repository](https://bit.ly/embeddingHandsOn) and fork the repository. Forking will create your own copy of the code.
+Go to the [sample repository](https://bit.ly/embeddingHandsOn) and fork the repository. Forking will create your own copy of the code. In Netlify deploy code from this repository.
 
 ## Step 2: Add the Embedding API v3 script
 
